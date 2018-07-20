@@ -1,10 +1,11 @@
-
+/*
 p{
   font-size: 2.4em;
   position: relative;
   left: 4.5em;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 .linea{
     position: relative;
     left: 1.5em;
@@ -16,6 +17,7 @@ p{
   top:3em;
   padding-bottom:3em;
 }
+*/
 .flexBox{
   display:flex;
 	flex/direction:row;
@@ -47,12 +49,36 @@ p{
   font-size: 3em;
   position: relative;
   top: 0.2em;
-  left: 2.5em;
+  left: 2.8em;
   margin-bottom: 1.5em;
 }
+
 #drop{
   position: relative;
   top: 1em;
   left: 2em;
   width: 15em;
+}
+
+/*A partir de aqui va el diseño de la nueva linea sintomática*/
+#anexo{
+  max-width: 20em;
+  position: relative;
+  right: 2em;
+  left: 2em;
+  width: 15;
+  height: 15em;
+}
+.img-fluid{
+  height: 15em;
+}
+p{
+  font-size: 2.4em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.alineacion{
+  padding-right: .5em;
+  padding-top: .5em;
+  position: relative;
+  left: 10em;
 }
