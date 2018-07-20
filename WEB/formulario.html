@@ -14,272 +14,442 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <title>Formulario de Síntomas</title>
   </head>
   <body>
-    <p>Síntoma 1</p>
-    <div class = "linea">
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="linea1" id="inlineRadio1" value="option1">
-          <label class="form-check-label" for="inlineRadio1">Presente</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="linea1" id="inlineRadio2" value="option2">
-          <label class="form-check-label" for="inlineRadio2">Ausente</label>
-        </div>
+    <div class = "flexBox">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" id = "drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menú
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" >Inicio</a>
+              <a class="dropdown-item" href="#">Medicamentos</a>
+              <a class="dropdown-item" href="#">Inteligencia Artificial</a>
+            </div>
+          </div>
+          <h1 id = "main">Ingresando Síntomas</h1>
     </div>
-    <p>Síntoma 2</p>
-    <div class = "linea">
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="linea2" id="inlineRadio1" value="option1">
-          <label class="form-check-label" for="inlineRadio1">Presente</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="linea2" id="inlineRadio2" value="option2">
-          <label class="form-check-label" for="inlineRadio2">Ausente</label>
-        </div>
-      </div>
-    <p>Síntoma 3</p>
-    <div class = "linea">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="linea3" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Presente</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="linea3" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Ausente</label>
-          </div>
-      </div>
-    <p>Síntoma 4</p>
-    <div class = "linea">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="linea4" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Presente</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="linea4" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Ausente</label>
-          </div>
-      </div>
-    <p>Síntoma 5</p>
-    <div class = "linea">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="linea5" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Presente</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="linea5" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Ausente</label>
-          </div>
-        </div>
-    <p>Síntoma 6</p>
-    <div class = "linea">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="linea6" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Presente</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="linea6" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">Ausente</label>
-            </div>
-        </div>
-    <p>Síntoma 7</p>
-    <div class = "linea">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="linea7" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Presente</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="linea7" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">Ausente</label>
-            </div>
-        </div>
-    <p>Síntoma 8</p>
-    <div class = "linea">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="linea8" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Presente</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="linea8" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">Ausente</label>
-            </div>
-          </div>
-    <p>Síntoma 9</p>
-    <div class = "linea">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="linea9" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Presente</label>
+    <div class="card mb-3" id = "mainCarro">
+      <img class="card-img-top" src="Imagenes/diag.png" alt="Card image cap">
+    </div>
+    <div id = "cuestionario">
+        <div class = "flexBox">
+            <p>Síntoma 1</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="linea9" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Ausente</label>
-              </div>
-          </div>
-    <p>Síntoma 10</p>
-    <div class = "linea">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="linea10" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Presente</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="linea10" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Ausente</label>
-              </div>
-          </div>
-    <p>Síntoma 11</p>
-    <div class = "linea">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="linea11" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Presente</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="linea11" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Ausente</label>
-              </div>
-            </div>
-    <p>Síntoma 12</p>
-    <div class = "linea">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="linea12" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Presente</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="linea12" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Ausente</label>
-                </div>
-            </div>
-    <p>Síntoma 13</p>
-    <div class = "linea">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="linea13" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Presente</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="linea13" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Ausente</label>
-                </div>
-            </div>
-    <p>Síntoma 14</p>
-    <div class = "linea">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="linea14" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Presente</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="linea14" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Ausente</label>
-                </div>
-              </div>
-    <p>Síntoma 15</p>
-    <div class = "linea">
+              <div class = "linea">
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="linea15" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="linea1" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">Presente</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="linea15" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="linea1" id="inlineRadio2" value="option2">
                     <label class="form-check-label" for="inlineRadio2">Ausente</label>
                   </div>
               </div>
-    <p>Síntoma 16</p>
-    <div class = "linea">
+            </div>
+            <p>Síntoma 2</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="linea2" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Presente</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="linea2" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 3</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="linea16" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="linea3" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">Presente</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="linea16" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="linea3" id="inlineRadio2" value="option2">
                     <label class="form-check-label" for="inlineRadio2">Ausente</label>
                   </div>
               </div>
-    <p>Síntoma 17</p>
-    <div class = "linea">
+            </div>
+            <p>Síntoma 4</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="linea17" id="inlineRadio1" value="option1">
+                    <input class="form-check-input" type="radio" name="linea4" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">Presente</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="linea17" id="inlineRadio2" value="option2">
+                    <input class="form-check-input" type="radio" name="linea4" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 5</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="linea5" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Presente</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="linea5" id="inlineRadio2" value="option2">
                     <label class="form-check-label" for="inlineRadio2">Ausente</label>
                   </div>
                 </div>
-    <p>Síntoma 18</p>
-    <div class = "linea">
+            </div>
+            <p>Síntoma 6</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="linea18" id="inlineRadio1" value="option1">
+                      <input class="form-check-input" type="radio" name="linea6" id="inlineRadio1" value="option1">
                       <label class="form-check-label" for="inlineRadio1">Presente</label>
                     </div>
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="linea18" id="inlineRadio2" value="option2">
+                      <input class="form-check-input" type="radio" name="linea6" id="inlineRadio2" value="option2">
                       <label class="form-check-label" for="inlineRadio2">Ausente</label>
                     </div>
                 </div>
-    <p>Síntoma 19</p>
-    <div class = "linea">
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 7</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="linea19" id="inlineRadio1" value="option1">
+                      <input class="form-check-input" type="radio" name="linea7" id="inlineRadio1" value="option1">
                       <label class="form-check-label" for="inlineRadio1">Presente</label>
                     </div>
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="linea19" id="inlineRadio2" value="option2">
+                      <input class="form-check-input" type="radio" name="linea7" id="inlineRadio2" value="option2">
                       <label class="form-check-label" for="inlineRadio2">Ausente</label>
                     </div>
                 </div>
-    <p>Síntoma 20</p>
-    <div class = "linea">
+            </div>
+            <p>Síntoma 8</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="linea20" id="inlineRadio1" value="option1">
+                      <input class="form-check-input" type="radio" name="linea8" id="inlineRadio1" value="option1">
                       <label class="form-check-label" for="inlineRadio1">Presente</label>
                     </div>
                     <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="linea20" id="inlineRadio2" value="option2">
+                      <input class="form-check-input" type="radio" name="linea8" id="inlineRadio2" value="option2">
                       <label class="form-check-label" for="inlineRadio2">Ausente</label>
                     </div>
                   </div>
-    <p>Síntoma 21</p>
-    <div class = "linea">
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 9</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="linea21" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio" name="linea9" id="inlineRadio1" value="option1">
                         <label class="form-check-label" for="inlineRadio1">Presente</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="linea21" id="inlineRadio2" value="option2">
+                        <input class="form-check-input" type="radio" name="linea9" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2">Ausente</label>
                       </div>
                   </div>
-    <p>Síntoma 22</p>
-    <div class = "linea">
+            </div>
+            <p>Síntoma 10</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="linea22" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio" name="linea10" id="inlineRadio1" value="option1">
                         <label class="form-check-label" for="inlineRadio1">Presente</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="linea22" id="inlineRadio2" value="option2">
+                        <input class="form-check-input" type="radio" name="linea10" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2">Ausente</label>
                       </div>
                   </div>
-    <p>Síntoma 23</p>
-    <div class = "linea">
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 11</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="linea23" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio" name="linea11" id="inlineRadio1" value="option1">
                         <label class="form-check-label" for="inlineRadio1">Presente</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="linea23" id="inlineRadio2" value="option2">
+                        <input class="form-check-input" type="radio" name="linea11" id="inlineRadio2" value="option2">
                         <label class="form-check-label" for="inlineRadio2">Ausente</label>
                       </div>
                     </div>
-    <p>Síntoma 24</p>
-    <div class = "linea">
+            </div>
+            <p>Síntoma 12</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="linea24" id="inlineRadio1" value="option1">
+                          <input class="form-check-input" type="radio" name="linea12" id="inlineRadio1" value="option1">
                           <label class="form-check-label" for="inlineRadio1">Presente</label>
                         </div>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="linea24" id="inlineRadio2" value="option2">
+                          <input class="form-check-input" type="radio" name="linea12" id="inlineRadio2" value="option2">
                           <label class="form-check-label" for="inlineRadio2">Ausente</label>
                         </div>
                     </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 13</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="linea13" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">Presente</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="linea13" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                        </div>
+                    </div>
+            </div>
+            <p>Síntoma 14</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="linea14" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">Presente</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="linea14" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                        </div>
+                      </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 15</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="linea15" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Presente</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="linea15" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                          </div>
+                      </div>
+            </div>
+            <p>Síntoma 16</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="linea16" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Presente</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="linea16" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                          </div>
+                      </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 17</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="linea17" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Presente</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="linea17" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                          </div>
+                        </div>
+            </div>
+            <p>Síntoma 18</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="linea18" id="inlineRadio1" value="option1">
+                              <label class="form-check-label" for="inlineRadio1">Presente</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="linea18" id="inlineRadio2" value="option2">
+                              <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 19</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="linea19" id="inlineRadio1" value="option1">
+                              <label class="form-check-label" for="inlineRadio1">Presente</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="linea19" id="inlineRadio2" value="option2">
+                              <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                            </div>
+                        </div>
+            </div>
+            <p>Síntoma 20</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="linea20" id="inlineRadio1" value="option1">
+                              <label class="form-check-label" for="inlineRadio1">Presente</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="linea20" id="inlineRadio2" value="option2">
+                              <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                            </div>
+                          </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 21</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="linea21" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Presente</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="linea21" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                              </div>
+                          </div>
+            </div>
+            <p>Síntoma 22</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="linea22" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Presente</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="linea22" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                              </div>
+                          </div>
+            </div>
+        </div>
+        <div class = "flexBox">
+            <p>Síntoma 23</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="linea23" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Presente</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="linea23" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                              </div>
+                            </div>
+            </div>
+            <p>Síntoma 24</p>
+            <div class = "contenido">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="Imagenes/pul.jpg" alt="Card image cap">
+              </div>
+              <div class = "linea">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="linea24" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label" for="inlineRadio1">Presente</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="linea24" id="inlineRadio2" value="option2">
+                                  <label class="form-check-label" for="inlineRadio2">Ausente</label>
+                                </div>
+                            </div>
+            </div>
+        </div>
+  </div>
+  <div class="jumbotron">
+    <h1 class="display-4">Enviar resultados</h1>
+    <p class="lead">A coontinuación se enviarán tus resultados para poder determinar la enfermedad que puedes llegar a tener.</p>
+    <hr class="my-4">
+    <p>Es importante mencionar que con base a tu edad, peso y altura, se te mostrará una lista de medicamentos con porciones para poder remediar con la enfermedad o infección que puedes estar portando.</p>
+    <a class="btn btn-primary btn-lg" id = "enviar" role="button">Enviar</a>
+  </div>
   </body>
 </html>
