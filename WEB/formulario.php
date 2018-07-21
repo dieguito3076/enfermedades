@@ -7,7 +7,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
   	<script href = "js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="formulario.css"/>
+    <link rel="stylesheet" href="formularioCSS.css"/>
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -25,8 +25,8 @@
               Menú
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" >Inicio</a>
-              <a class="dropdown-item" href="#">Medicamentos</a>
+              <a class="dropdown-item" href="enfermedades.html">Inicio</a>
+              <a class="dropdown-item" href="medicamentos.html">Medicamentos</a>
               <a class="dropdown-item" href="#">Inteligencia Artificial</a>
             </div>
           </div>
@@ -187,6 +187,158 @@
                </div>
             </div>
         </div>
+        <br />
+        <u><p id = "signosMain">Registrando Signos</p></u>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 15, 'sintom16');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom16"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 16, 'sintom17');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom17"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 2</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 17, 'sintom18');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom18"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 3</p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 18, 'sintom19');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom19"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 4</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 19, 'sintom20');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom20"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 5</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 20, 'sintom21');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom21"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 6</p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 21, 'sintom22');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom22"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 7</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 22, 'sintom23');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom23"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 8</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 23, 'sintom24');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom24"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 9</p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 24, 'sintom25');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom25"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 10</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 25, 'sintom26');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom26"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 11</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 26, 'sintom27');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom27"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 12</p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 27, 'sintom28');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom28"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 13</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 28, 'sintom29');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom29"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 14</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 29, 'sintom30');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom30"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 15</p>
+                    </div>
+                  </div>
+               </div>
+            </div>
+        </div>
     </div>
     <div class="jumbotron">
         <h1 class="display-4">Enviar resultados</h1>
@@ -217,7 +369,7 @@
       </div>
     </div>
     <script type="text/javascript">
-          var sintomas = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; //Tiene que tener el mismo orden de las entradas de las redes neuronales.
+          var sintomas = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; //Tiene que tener el mismo orden de las entradas de las redes neuronales.
           function escogerOpcion(imgGray, imgCol, posCadena, id){
             var img = document.getElementById(id);
             cadena = img.src;
@@ -246,7 +398,11 @@
           	ajaxe.open("POST", "enviandoCadena.php", true);
           	ajaxe.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
           	ajaxe.send("cadena=" + string);
+            cambiarPagina("diagnosticoFinal.php", "Diagnostico Final");
             return;
+          }
+          function cambiarPagina(url, nombreVentana){
+            window.open(url, nombreVentana);
           }
     </script>
   </body>

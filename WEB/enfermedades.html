@@ -22,8 +22,8 @@
               Sistema
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" onclick="solicitarDatos();">Comenzar prueba</a>
-              <a class="dropdown-item" href="#">Medicamentos</a>
+              <a class="dropdown-item" onclick="solicitarDatos();" href="http://localhost/web/formulario.php">Comenzar prueba</a>
+              <a class="dropdown-item" href="medicamentos.html">Medicamentos</a>
               <a class="dropdown-item" href="#">Como funciona?</a>
             </div>
           </div>
@@ -150,7 +150,7 @@
       <div class="card-body">
         <h5 class="card-title">Examen sintomático</h5>
         <p class="card-text">A continuación se te presentará una prueba en donde tendrás que especificar tus síntomas.</p>
-        <a href="#" class="btn btn-primary" onclick="solicitarDatos();">Comenzar</a>
+        <a href="http://localhost/web/formulario.php" class="btn btn-primary" onclick="solicitarDatos();">Comenzar</a>
       </div>
       <div class="card-footer text-muted">
       </div>
@@ -160,7 +160,7 @@
     function solicitarDatos(){
         var nombre = prompt("Ingresa tu nombre");
         var edad = prompt("Ingresa tu edad");
-
+        return;
     }
   </script>
 </html>

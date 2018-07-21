@@ -26,6 +26,8 @@
          </button>
 				  <div class="collapse navbar-collapse" id="navbarText">
 						<ul id = "contOp">
+              <li class="main"><a href = 'enfermedades.html'>Inicio</a></li>
+              <li class="main" onclick="solicitarDatos();"><a href = 'http://localhost/web/formulario.php'>Comenzar Diagnostico</a></li>
 							<li class="main"><a href = '#Enf1'>Enfermedades Tipo1</a></li>
 							<li class="main"><a href = '#Enf2'>Enfermedades Tipo2</a></li>
 							<li class="main"><a href = '#Enf3'>Enfermedades Tipo3</a></li>
@@ -216,5 +218,15 @@
       <canvas id="dona5"></canvas>
     </div>
     <script type="text/javascript" src="JAVAGRAFICAS.js"></script>
+    <script type="text/javascript">
+      function cambiarPagina(url, nombreVentana){
+        window.open(url, nombreVentana);
+      }
+      function solicitarDatos(){
+          var nombre = prompt("Ingresa tu nombre");
+          var edad = prompt("Ingresa tu edad");
+          return;
+      }
+    </script>
 </body>
 </html>
