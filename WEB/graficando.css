@@ -1,0 +1,52 @@
+#pulso {
+      min-width: 500px;
+      max-width: 800px;
+      height: 400px;
+      position: relative;
+      left: 1em;
+}
+#temperatura{
+      max-width: 800px;
+      min-width: 380px;
+      height: 400px;
+      position: relative;
+      left: 10em;
+}
+#respiraciones{
+}
+.flexBox{
+      display:flex;
+      flex/direction:row;
+      flex-wrap:wrap;
+      justify-content:flexend;
+}
+#flexGraph{
+  position: relative;
+  top: 1em;
+}
+#tituloMonitoreo{
+  font-size: 3em;
+  position: relative;
+  text-align: center;
+  left: 5em;
+  top: 0.5em;
+  padding-bottom: 1em;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+#headerM{
+  background-color: #5DA5E8;
+}
+#boton{
+  height: 2.4em;
+  position: relative;
+  left: 4em;
+  top: 2.8em;
+  width: 10em;
+}
+button{
+  position: relative;
+  left: 24em;
+  width: 40em;
+  top: 1em;
+}
