@@ -309,3 +309,7 @@ function solicitarEdad(){
 function cambiarPagina(url, nombreVentana){
   window.open(url, nombreVentana);
 }
+function mostrarPagina(){
+  alert("A continuación se mostrarán los resultados.")
+  $('#seccionDiagnostico').css("display", "block");
+}
