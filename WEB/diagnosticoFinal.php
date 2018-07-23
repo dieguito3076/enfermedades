@@ -34,53 +34,53 @@
       <p id = "diagnosticoFinal">Diagnostico Final</p>
       <div class="flexBox" id = "imagenesDos">
         <img src="Imagenes/faringitis.jpg" id="imgDiagnos"class="img-fluid" alt="Responsive image">
-        <img src="Imagenes/faringe.jpg" id="imgPropia"class="img-fluid" alt="Responsive image">
+        <img src="Imagenes/faringe.jpg" id="imgPropia" class="img-fluid" alt="Responsive image">
       </div>
       <div class="alert alert-danger" id = "anuncio"role="alert">
         A priori, se ha identificado Faringitis.
       </div>
       <p id = "descripcion">Inflamación de la faringe que puede provocar dolor de garganta, sequedad, enrojecimiento de la mucosa y, en ocasiones, fiebre.</p>
       <div class="flexBox">
-            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" alt="Responsive image">
+            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" id = "img1" alt="Responsive image">
             <div class="card bg-light mb-3 cardInfo" style="max-width: 50rem;">
               <div class="card-header">Medicamento 1</div>
               <div class="card-body">
                 <h5 class="card-title">Nombre del Medicamento</h5>
-                <p class="card-text">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
+                <p class="card-text" id = "medDes1">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
               </div>
             </div>
       </div>
       <div class="flexBox">
-            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" alt="Responsive image">
+            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" id = "img2" alt="Responsive image">
             <div class="card bg-light mb-3 cardInfo" style="max-width: 50rem;">
               <div class="card-header">Medicamento 2</div>
               <div class="card-body">
                 <h5 class="card-title">Nombre del Medicamento</h5>
-                <p class="card-text">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
+                <p class="card-text" id = "medDes2">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
               </div>
             </div>
       </div>
       <div class="flexBox">
-            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" alt="Responsive image">
+            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" id = "img3" alt="Responsive image">
             <div class="card bg-light mb-3 cardInfo" style="max-width: 50rem;">
               <div class="card-header">Medicamento 3</div>
               <div class="card-body">
                 <h5 class="card-title">Nombre del Medicamento</h5>
-                <p class="card-text">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
+                <p class="card-text" id = "medDes3">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
               </div>
             </div>
       </div>
       <div class="flexBox">
-            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" alt="Responsive image">
+            <img src="FotosMedicamentos/pills1.jpg"  class="img-fluid imagenMedi" id = "img4" alt="Responsive image">
             <div class="card bg-light mb-3 cardInfo" style="max-width: 50rem;">
               <div class="card-header">Medicamento 4</div>
               <div class="card-body">
                 <h5 class="card-title">Nombre del Medicamento</h5>
-                <p class="card-text">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
+                <p class="card-text" id = "medDes4">Aquí se desplegará una descripción del medicamento indicado. Misma que será extraida de la base de datos. Cada medicamento tiene su foto, nombre y su descripción.</p>
               </div>
             </div>
       </div>
     </div>
-    <script src="auxiliarJavaGraficando.js"></script>
+    <script src="auxiliarJavaGrafFinal.js"></script>
   </body>
 </html>
