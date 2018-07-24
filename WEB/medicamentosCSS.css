@@ -60,6 +60,9 @@ canvas{
   text-align: center;
   border-radius: 1.54em;
 }
+.bg-dark {
+    background-color: #4786FF!important;
+}
 a:link {color:#ffffff;}
 a:visited {color:#ffffff;}
 a:active {color:#ffffff;}

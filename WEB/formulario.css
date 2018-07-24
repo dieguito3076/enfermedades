@@ -39,25 +39,25 @@
   width: 15em;
 }
 #anexo{
-  max-width: 20em;
+  max-width: 15em;
   position: relative;
   right: 2em;
   left: 2em;
-  width: 15;
-  height: 15em;
+  width: 10;
+  height: 10.5em;
 }
 .img-fluid{
-  height: 15em;
+  height: 16em;
 }
 p{
-  font-size: 2.4em;
+  font-size: 1.5em;
   font-family: 'Roboto Condensed', sans-serif;
 }
 .alineacion{
   padding-right: .5em;
   padding-top: .5em;
   position: relative;
-  left: 10em;
+  left: 0.4em;
 }
 #instrucciones{
   position: relative;
@@ -80,4 +80,16 @@ p{
 #signosMain{
   position: relative;
   left: 5em;
+}
+#sintom2{
+  height: 16em;
+}
+#sintom3{
+  height: 16em;
+}
+#sintom4{
+  height: 16em;
+}
+#sintom5{
+  height: 16em;
 }

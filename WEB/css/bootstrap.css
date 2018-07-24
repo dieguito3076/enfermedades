@@ -8978,4 +8978,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+.bg-dark {
+    background-color: #4786FF!important;
+}
 /*# sourceMappingURL=bootstrap.css.map */

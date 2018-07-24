@@ -7,7 +7,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
   	<script href = "js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="formularioCSS.css"/>
+    <link rel="stylesheet" href="formulario.css"/>
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -37,139 +37,441 @@
     </div>
     <p id = "instrucciones">A continuación seleccione los síntomas que presenta.</p>
     <div id = "cuestionario">
+       <div style="background-color:#FF4F5A;">
+            <div class="flexBox">
+                <div class="flexBox">
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 0, 'sintom1');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom1"/>
+                      <div class="card-img-overlay">
+                        <p class="card-title">Malestar General</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('dolorcabezaGray.jpg', 'dolorcabeza.jpg', 1, 'sintom2');">
+                      <img  src="fotossintomas/dolorcabezaGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom2"/>
+                      <div class="card-img-overlay">
+                       <p class="card-title" style="color: black;">Dolor de cabeza</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flexBox">
+                   <div class = "alineacion">
+                      <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('fiebreGray.jpg', 'fiebre.jpg', 2, 'sintom3');">
+                        <img  src="fotossintomas/fiebreGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom3"/>
+                        <div class="card-img-overlay">
+                          <p class="card-title" style="color: black;">Fiebre</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('dolmuscGray.jpg', 'dolmusc.jpg', 3, 'sintom4');">
+                       <img  src="fotossintomas/dolmuscGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom4"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Dolores Musculares</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('dolhomGray.png', 'dolhom.png', 4, 'sintom5');">
+                       <img  src="fotossintomas/dolhomGray.png"  class="img-fluid" alt="Responsive image" id = "sintom5"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Dolores de hombro</p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+            <div class="flexBox">
+                <div class="flexBox">
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 5, 'sintom6');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom6"/>
+                      <div class="card-img-overlay">
+                        <p class="card-title">Malestar/presión en el pecho</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 6, 'sintom7');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom7"/>
+                      <div class="card-img-overlay">
+                       <p class="card-title">Hinchazón en piernas, piesm o tobillos</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flexBox">
+                   <div class = "alineacion">
+                      <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 7, 'sintom8');">
+                        <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom8"/>
+                        <div class="card-img-overlay">
+                          <p class="card-title">Dolor detrás de ojos</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 8, 'sintom9');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom9"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Sensibilidad Facial</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 9, 'sintom10');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom10"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Dolor Retroesternal</p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+            <div class="flexBox">
+                <div class="flexBox">
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 10, 'sintom11');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom11"/>
+                      <div class="card-img-overlay">
+                        <p class="card-title">Fatiga</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 11, 'sintom12');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom12"/>
+                      <div class="card-img-overlay">
+                       <p class="card-title">Síntoma 12</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flexBox">
+                   <div class = "alineacion">
+                      <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 12, 'sintom13');">
+                        <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom13"/>
+                        <div class="card-img-overlay">
+                          <p class="card-title">Síntoma 13</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 13, 'sintom14');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom14"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Síntoma 14</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 14, 'sintom15');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom15"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Síntoma 15</p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div style="background-color:#4891E8;">
+            <div class="flexBox">
+                <div class="flexBox">
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 15, 'sintom16');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom16"/>
+                      <div class="card-img-overlay">
+                        <p class="card-title">Dolor de garganta</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 16, 'sintom17');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom17"/>
+                      <div class="card-img-overlay">
+                         <p class="card-title">Tos seca</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flexBox">
+                   <div class = "alineacion">
+                      <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 17, 'sintom18');">
+                        <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom18"/>
+                        <div class="card-img-overlay">
+                          <p class="card-title">Tos crónica</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 18, 'sintom19');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom19"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Resequedad de garganta</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 19, 'sintom20');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom20"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Síntoma 20</p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+            <div class="flexBox">
+                <div class="flexBox">
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 20, 'sintom21');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom21"/>
+                      <div class="card-img-overlay">
+                        <p class="card-title">Dificultad para respirar</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 21, 'sintom22');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom22"/>
+                      <div class="card-img-overlay">
+                       <p class="card-title">Dolor en tórax al inhalar</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flexBox">
+                   <div class = "alineacion">
+                      <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 22, 'sintom23');">
+                        <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom23"/>
+                        <div class="card-img-overlay">
+                          <p class="card-title">Exhalar o toser profundamente</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 23, 'sintom24');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom24"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Dificultad para tomar aire</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 24, 'sintom25');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom25"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Dificultad para respirar al hacer ejercicio</p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+            <div class="flexBox">
+                <div class="flexBox">
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 25, 'sintom26');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom26"/>
+                      <div class="card-img-overlay">
+                        <p class="card-title">Opresión en el pecho</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "alineacion">
+                    <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 26, 'sintom27');">
+                      <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom27"/>
+                      <div class="card-img-overlay">
+                       <p class="card-title">Ruidos respiratorios</p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flexBox">
+                   <div class = "alineacion">
+                      <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 27, 'sintom28');">
+                        <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom28"/>
+                        <div class="card-img-overlay">
+                          <p class="card-title">Síntoma 28</p>
+                        </div>
+                      </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 28, 'sintom29');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom29"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Síntoma 29</p>
+                       </div>
+                     </div>
+                   </div>
+                   <div class = "alineacion">
+                     <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 29, 'sintom30');">
+                       <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom30"/>
+                       <div class="card-img-overlay">
+                         <p class="card-title">Síntoma 29</p>
+                       </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 0, 'sintom1');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom1"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 30, 'sintom31');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom31"/>
                   <div class="card-img-overlay">
-                    <p class="card-title">Síntoma 1</p>
+                    <p class="card-title">Dolores musculares</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 1, 'sintom2');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom2"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 31, 'sintom32');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom32"/>
                   <div class="card-img-overlay">
-                   <p class="card-title">Síntoma 2</p>
+                   <p class="card-title">Dolor de hombro</p>
                  </div>
                 </div>
               </div>
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 2, 'sintom3');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom3"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 32, 'sintom33');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom33"/>
                     <div class="card-img-overlay">
-                      <p class="card-title">Síntoma 3</p>
+                      <p class="card-title">Malestar/presión en el pecho</p>
                     </div>
                   </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 33, 'sintom34');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom34"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 34, 'sintom35');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom35"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 3, 'sintom4');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom4"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 35, 'sintom36');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom36"/>
                   <div class="card-img-overlay">
-                    <p class="card-title">Síntoma 4</p>
+                    <p class="card-title">Hinchazón en piernas, piesm o tobillos</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 4, 'sintom5');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom5"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 36, 'sintom37');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom37"/>
                   <div class="card-img-overlay">
-                   <p class="card-title">Síntoma 5</p>
+                   <p class="card-title">Dolor detrás de ojos</p>
                  </div>
                 </div>
               </div>
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 5, 'sintom6');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom6"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 37, 'sintom38');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom38"/>
                     <div class="card-img-overlay">
-                      <p class="card-title">Síntoma 6</p>
+                      <p class="card-title">Sensibilidad facial</p>
                     </div>
                   </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 38, 'sintom39');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom39"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 39, 'sintom40');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom40"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 6, 'sintom7');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom7"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 40, 'sintom41');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom41"/>
                   <div class="card-img-overlay">
-                    <p class="card-title">Síntoma 7</p>
+                    <p class="card-title">Dolor Retroesternal</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 7, 'sintom8');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom8"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 41, 'sintom42');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom42"/>
                   <div class="card-img-overlay">
-                   <p class="card-title">Síntoma 8</p>
+                   <p class="card-title">Fatiga</p>
                  </div>
                 </div>
               </div>
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 8, 'sintom9');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom9"/>
-                    <div class="card-img-overlay">
-                      <p class="card-title">Síntoma 9</p>
-                    </div>
-                  </div>
-               </div>
-            </div>
-        </div>
-        <div class="flexBox">
-            <div class="flexBox">
-              <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 9, 'sintom10');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom10"/>
-                  <div class="card-img-overlay">
-                    <p class="card-title">Síntoma 10</p>
-                  </div>
-                </div>
-              </div>
-              <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 10, 'sintom11');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom11"/>
-                  <div class="card-img-overlay">
-                   <p class="card-title">Síntoma 11</p>
-                 </div>
-                </div>
-              </div>
-            </div>
-            <div class="flexBox">
-               <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 11, 'sintom12');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom12"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 42, 'sintom43');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom43"/>
                     <div class="card-img-overlay">
                       <p class="card-title">Síntoma 12</p>
                     </div>
                   </div>
                </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 43, 'sintom44');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom44"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 44, 'sintom45');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom45"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
+               </div>
             </div>
         </div>
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 12, 'sintom13');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom13"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 45, 'sintom46');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom46"/>
                   <div class="card-img-overlay">
                     <p class="card-title">Síntoma 13</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 13, 'sintom14');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom14"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 46, 'sintom47');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom47"/>
                   <div class="card-img-overlay">
                    <p class="card-title">Síntoma 14</p>
                  </div>
@@ -178,12 +480,28 @@
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 14, 'sintom15');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom15"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 47, 'sintom48');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom48"/>
                     <div class="card-img-overlay">
                       <p class="card-title">Síntoma 15</p>
                     </div>
                   </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 48, 'sintom49');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom49"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 49, 'sintom50');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom50"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Malestar General</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
@@ -192,16 +510,16 @@
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 15, 'sintom16');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom16"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 50, 'sintom51');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom51"/>
                   <div class="card-img-overlay">
                     <p class="card-title">Signo 1</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 16, 'sintom17');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom17"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 51, 'sintom52');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom52"/>
                   <div class="card-img-overlay">
                    <p class="card-title">Signo 2</p>
                  </div>
@@ -210,132 +528,258 @@
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 17, 'sintom18');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom18"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 52, 'sintom53');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom53"/>
                     <div class="card-img-overlay">
                       <p class="card-title">Signo 3</p>
                     </div>
                   </div>
                </div>
-            </div>
-        </div>
-        <div class="flexBox">
-            <div class="flexBox">
-              <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 18, 'sintom19');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom19"/>
-                  <div class="card-img-overlay">
-                    <p class="card-title">Signo 4</p>
-                  </div>
-                </div>
-              </div>
-              <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 19, 'sintom20');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom20"/>
-                  <div class="card-img-overlay">
-                   <p class="card-title">Signo 5</p>
-                 </div>
-                </div>
-              </div>
-            </div>
-            <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 20, 'sintom21');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom21"/>
-                    <div class="card-img-overlay">
-                      <p class="card-title">Signo 6</p>
-                    </div>
-                  </div>
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 53, 'sintom54');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom54"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 4</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 54, 'sintom55');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom55"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 5</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 21, 'sintom22');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom22"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 55, 'sintom56');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom56"/>
                   <div class="card-img-overlay">
-                    <p class="card-title">Signo 7</p>
+                    <p class="card-title">Signo 6</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 22, 'sintom23');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom23"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 56, 'sintom57');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom57"/>
                   <div class="card-img-overlay">
-                   <p class="card-title">Signo 8</p>
+                   <p class="card-title">Signo 7</p>
                  </div>
                 </div>
               </div>
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 23, 'sintom24');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom24"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 57, 'sintom58');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom58"/>
                     <div class="card-img-overlay">
-                      <p class="card-title">Signo 9</p>
+                      <p class="card-title">Signo 8</p>
                     </div>
                   </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 58, 'sintom59');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom59"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 9</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 59, 'sintom60');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom60"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 10</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 24, 'sintom25');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom25"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 60, 'sintom61');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom61"/>
                   <div class="card-img-overlay">
-                    <p class="card-title">Signo 10</p>
+                    <p class="card-title">Signo 11</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 25, 'sintom26');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom26"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 61, 'sintom62');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom62"/>
                   <div class="card-img-overlay">
-                   <p class="card-title">Signo 11</p>
+                   <p class="card-title">Signo 12</p>
                  </div>
                 </div>
               </div>
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 26, 'sintom27');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom27"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 62, 'sintom63');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom63"/>
                     <div class="card-img-overlay">
-                      <p class="card-title">Signo 12</p>
+                      <p class="card-title">Signo 13</p>
                     </div>
                   </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 63, 'sintom64');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom64"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 14</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 64, 'sintom65');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom65"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 15</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
         <div class="flexBox">
             <div class="flexBox">
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 27, 'sintom28');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom28"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 65, 'sintom66');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom66"/>
                   <div class="card-img-overlay">
-                    <p class="card-title">Signo 13</p>
+                    <p class="card-title">Signo 16</p>
                   </div>
                 </div>
               </div>
               <div class = "alineacion">
-                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 28, 'sintom29');">
-                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom29"/>
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 66, 'sintom67');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom67"/>
                   <div class="card-img-overlay">
-                   <p class="card-title">Signo 14</p>
+                   <p class="card-title">Signo 17</p>
                  </div>
                 </div>
               </div>
             </div>
             <div class="flexBox">
                <div class = "alineacion">
-                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 29, 'sintom30');">
-                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom30"/>
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 67, 'sintom68');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom68"/>
                     <div class="card-img-overlay">
-                      <p class="card-title">Signo 15</p>
+                      <p class="card-title">Signo 18</p>
                     </div>
                   </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 68, 'sintom69');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom69"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 19</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 69, 'sintom70');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom70"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 20</p>
+                   </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 70, 'sintom71');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom71"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 21</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 71, 'sintom72');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom72"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 22</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 72, 'sintom73');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom73"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 23</p>
+                    </div>
+                  </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 73, 'sintom74');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom74"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 24</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 74, 'sintom75');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom75"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 25</p>
+                   </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexBox">
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 75, 'sintom76');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom76"/>
+                  <div class="card-img-overlay">
+                    <p class="card-title">Signo 26</p>
+                  </div>
+                </div>
+              </div>
+              <div class = "alineacion">
+                <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 76, 'sintom77');">
+                  <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom77"/>
+                  <div class="card-img-overlay">
+                   <p class="card-title">Signo 27</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="flexBox">
+               <div class = "alineacion">
+                  <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 77, 'sintom78');">
+                    <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom78"/>
+                    <div class="card-img-overlay">
+                      <p class="card-title">Signo 28</p>
+                    </div>
+                  </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 78, 'sintom79');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom79"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 29</p>
+                   </div>
+                 </div>
+               </div>
+               <div class = "alineacion">
+                 <div class="card bg-dark text-white col" id = "anexo" onclick="escogerOpcion('pulmonGray.jpg', 'pulmon.jpg', 79, 'sintom80');">
+                   <img  src="Imagenes/pulmonGray.jpg"  class="img-fluid" alt="Responsive image" id = "sintom80"/>
+                   <div class="card-img-overlay">
+                     <p class="card-title">Signo 30</p>
+                   </div>
+                 </div>
                </div>
             </div>
         </div>
@@ -368,42 +812,6 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript">
-          var sintomas = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; //Tiene que tener el mismo orden de las entradas de las redes neuronales.
-          function escogerOpcion(imgGray, imgCol, posCadena, id){
-            var img = document.getElementById(id);
-            cadena = img.src;
-            var res = cadena.split("/");
-            if(res[res.length-1] == imgGray){
-                final = "Imagenes/"+imgCol;
-                img.setAttribute("src", final);
-                sintomas[posCadena] = 1;
-            }
-            else if(res[res.length-1] == imgCol){
-                final = "Imagenes/"+imgGray;
-                img.setAttribute("src", final);
-                sintomas[posCadena] = 0;
-            }
-            console.log(sintomas);
-            return sintomas;
-          }
-          function corroborar(){
-          	var string = JSON.stringify(sintomas);
-          	var ajaxe = new XMLHttpRequest();
-          	ajaxe.onreadystatechange = function(){
-          		if(this.readyState == 4 && this.status == 200){
-          			console.log(this.response);
-          		}
-          	}
-          	ajaxe.open("POST", "enviandoCadena.php", true);
-          	ajaxe.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-          	ajaxe.send("cadena=" + string);
-            cambiarPagina("diagnosticoFinal.php", "Diagnostico Final");
-            return;
-          }
-          function cambiarPagina(url, nombreVentana){
-            window.open(url, nombreVentana);
-          }
-    </script>
+    <script src = "javaFormulario.js"></script>
   </body>
 </html>
