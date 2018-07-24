@@ -22,7 +22,7 @@
               Sistema
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="http://localhost/web/formulario.php">Comenzar prueba</a>
+              <a class="dropdown-item" onclick="solicitarDatos();" href="http://localhost/web/formulario.php">Comenzar prueba</a>
               <a class="dropdown-item" href="medicamentos.html">Medicamentos</a>
               <a class="dropdown-item" href="#">Como funciona?</a>
             </div>
@@ -352,7 +352,20 @@
     function solicitarDatos(){
         var nombre = prompt("Ingresa tu nombre");
         var edad = prompt("Ingresa tu edad");
-        return;
-    }
+        alert("Tu edad es: "+edad);
+        var data = [];
+        var horas;
+        var ajax = new XMLHttpRequest();
+        ajax.onreadystatechange = function(){
+        if(this.readyState == 4 && this.status == 200){
+            var recibo = this.response;
+            console.log(recibo);
+            }
+        }
+       ajax.open("GET", "phpEDAD.php?edad="+edad, true);
+       ajax.send();
+       return;
+      }
+
   </script>
 </html>
