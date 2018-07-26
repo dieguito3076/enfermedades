@@ -12,10 +12,10 @@ def matplotlib():
 
 #img = cv2.imread("fuga.jpg")
 #Para escala de grises
-pic = ['coche.jpg', 'duchandose.jpg', 'fugaReal.jpg', 'lavadoraFoto.jpg', 'lavandoDientes.jpg', 'lavando.jpg'];
-picName = ['cocheGray.jpg', 'duchandoseGray.jpg', 'fugaRealGray.jpg', 'lavadoraFotoGray.jpg', 'lavandoDientesGray.jpg', 'lavandoGray.jpg'];
-'''
-for i in range(0,6):
+pic = ['dificultadRespirar.jpg','dolorGarganta.jpg','dolorToraxRespirar.jpg','resequedadGarganta.jpg','respirarEjercicio.jpg','ruidosRespiratorios.jpg','tos.jpg' ,'tosCronica.jpg','tosSeca.jpg'];
+picName = ['dificultadRespirarGray.jpg','dolorGargantaGray.jpg','dolorToraxRespirarGray.jpg','resequedadGargantaGray.jpg','respirarEjercicioGray.jpg','ruidosRespiratoriosGray.jpg','tosGray.jpg','tosCronicaGray.jpg','tosSecaGray.jpg'];
+
+for i in range(0,9):
 	img = cv2.imread(pic[i], cv2.IMREAD_GRAYSCALE)
 	#Para guardar una imagen
 	cv2.imwrite(picName[i],img)
@@ -28,6 +28,7 @@ cv2.imwrite("dolhomGray.png",img)
 #Espera a recibir una recla
 #cv2.waitKey(0)
 #te ayuda para cerrar las ventanas que se abran en el programa
+'''
 cv2.destroyAllWindows()
 
 #matplotlib()
