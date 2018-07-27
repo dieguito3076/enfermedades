@@ -1,4 +1,4 @@
-var sintomas = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0]; //Tiene que tener el mismo orden de las entradas de las redes neuronales.
+var sintomas = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; //Tiene que tener el mismo orden de las entradas de las redes neuronales.
 function escogerOpcion(imgGray, imgCol, posCadena, id){
   var img = document.getElementById(id);
   cadena = img.src;
@@ -18,6 +18,7 @@ function escogerOpcion(imgGray, imgCol, posCadena, id){
 }
 function corroborar(){
   var string = JSON.stringify(sintomas);
+  var final = string.split(',').join('');
   var ajaxe = new XMLHttpRequest();
   ajaxe.onreadystatechange = function(){
     if(this.readyState == 4 && this.status == 200){
@@ -26,7 +27,7 @@ function corroborar(){
   }
   ajaxe.open("POST", "enviandoCadena.php", true);
   ajaxe.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  ajaxe.send("cadena=" + string);
+  ajaxe.send("cadena=" + final);
   cambiarPagina("diagnosticoFinal.php", "Diagnostico Final");
   return;
 }

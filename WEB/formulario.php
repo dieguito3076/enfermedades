@@ -809,6 +809,6 @@
         </div>
       </div>
     </div>
-    <script src = "javaFormulario.js"></script>
+    <script src = "javaFormularioF.js"></script>
   </body>
 </html>
